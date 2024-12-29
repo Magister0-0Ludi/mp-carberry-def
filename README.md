@@ -1,0 +1,1 @@
+I fixed the carberry defs ability to pull the fine learning knock correction table. ecu param "E173", previously knock reset counter, was the culprit. Changed to FLKC table start (as defined in standard def v370) and the table appears to pull the correct values
